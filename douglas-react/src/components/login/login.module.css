@@ -1,0 +1,121 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: rgb(236,50,55);
+  height: 50px;
+  width: 100%;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: rgb(66,66,66);
+  height: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.img {
+  width: auto;
+  height: 70px;
+}
+
+.title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.text {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: rgb(236,50,55);
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  padding: 1rem 0;
+  background-image: url('../../assets/fondo.jpg');
+  background-position: center;
+  background-size: cover;
+
+}
+.form_container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+  padding: 1rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: rgb(255, 0, 0);
+}
+.form_title {
+  text-align: center;
+  color: rgb(236,50,55);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 20px 0;
+}
+.input {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  border: 1px solid rgb(255, 199, 201);
+  border-radius: 5px;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid rgb(255,0,0);
+}
+.form_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  padding-bottom: 1rem;
+}
